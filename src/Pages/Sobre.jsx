@@ -24,10 +24,11 @@ export default function Sobre() {
                 gap-20
             ">
                 <div className="
-                    grid 
-                    grid-cols-3
+                    flex
+                    flex-col
                     place-items-center
                     gap-20
+                    md:flex-row
                 ">
                     <div className="
                         h-60 w-96
