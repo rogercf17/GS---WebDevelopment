@@ -1,8 +1,12 @@
 const CardEnergia = ({nome, imagem, descricao, lista, link}) => {
     return(
         <div className="
-            w-4/5 h-60
-            flex justify-center
+            w-full h-auto
+            md:w-4/5 
+            md:h-60
+            flex flex-col
+            justify-center
+            md:flex-row
             text-white
             gap-2
             shadow-lg
