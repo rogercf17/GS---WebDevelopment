@@ -49,7 +49,7 @@ const FormCalculadora = () => {
 
     return(
         <form className="
-            w-full
+            w-full h-auto
             flex flex-col
             justify-center
             gap-10
@@ -92,14 +92,20 @@ const FormCalculadora = () => {
                         de CO₂ por mês!
                     </p>
 
-                    <div className="flex items-center gap-2">
+                    <div className="
+                        flex flex-col
+                        md:flex-row
+                        items-center 
+                        gap-2
+                    ">
                         <button className="
                             bg-red-700
                             text-white 
                             px-4 py-2 
                             rounded-lg 
                             hover:bg-red-600
-                            w-1/4 
+                            w-2/3
+                            md:w-1/4 
                             self-center
                             hover:opacity-85
                         " onClick={clear}>
@@ -111,7 +117,8 @@ const FormCalculadora = () => {
                             px-4 py-2 
                             rounded-lg
                             hover:bg-blue-600
-                            w-1/4 
+                            w-2/3
+                            md:w-1/4 
                             self-center
                             hover:opacity-85
                         " onClick={saveResult}>
