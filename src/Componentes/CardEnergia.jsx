@@ -14,13 +14,14 @@ const CardEnergia = ({nome, imagem, descricao, lista, link}) => {
             "/>
             <div className="p-2">
                 <h3 className="
-                    text-2xl
+                    text-base
+                    md:text-2xl
                     mb-2
                     font-bold
                 ">{nome}</h3>
                 <p className="
                     w-2/4
-                    text-xs
+                    md:text-xs
                     mb-1
                 ">{descricao}</p>
                 <p className="

@@ -6,6 +6,8 @@ const Footer = () => {
             h-20 w-full
             static bottom-0
             z-0
+            hidden
+            md:block
         ">
             <div className="
                 container mx-auto
